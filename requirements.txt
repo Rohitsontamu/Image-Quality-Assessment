@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+numpy
+joblib
+opencv-python
+numpy
+pandas
+scikit-learn
+tensorflow
+opencv-python
+matplotlib
