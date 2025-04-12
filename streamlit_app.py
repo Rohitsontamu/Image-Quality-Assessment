@@ -125,7 +125,8 @@ if uploaded_file:
 
     # Prediction directly after preview
     with open(temp_image_path, "rb") as img_file:
-        response = requests.post("http://127.0.0.1:8000/predict/", files={"file": img_file})
+        response = requests.post("http://api:8000/predict/", files={"file": img_file})
+
 
     if response.status_code == 200:
         result = response.json()

@@ -1,4 +1,4 @@
-from turtle import st
+
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
 import numpy as np
