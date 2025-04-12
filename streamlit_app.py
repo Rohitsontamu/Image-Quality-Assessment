@@ -125,7 +125,7 @@ if uploaded_file:
 
     # Prediction directly after preview
     with open(temp_image_path, "rb") as img_file:
-        response = requests.post("http://api:8000/predict/", files={"file": img_file})
+        response = requests.post("https://image-quality-assessment-58z3.onrender.com", files={"file": img_file})
 
 
     if response.status_code == 200:
